@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link rel="stylesheet" href="books.css">
+
+<title>Lil's Book Blog :: Contact</title>
+<meta charset="utf-8">
+<meta name="description" content="Lil's Book Blog contains a blog, a shop, and book lists geared towards all readers.">
+
+
+<span class="header"><a href="home.html"><img src="images/banner.jpg"></a></span>
+
+<nav>
+    <ul>
+        <li><a href="home.html">Home</a> </li>
+        <li><a href="blog.html">Blog</a> </li>
+        <li><a href="lists.html">Book Lists</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<div id="break"><br></div>
+
+<body>
+
+    <div id="reshero"></div>
+
+<div id="wrapper">
+    <h2>Have a Book Recomendation? Need Book Help?</h2>
+    <h3>Contact Me!</h3>
+    <p>Required fields are marked with an asterisk*.</p>
+    <form method="post" action="donef.html">
+        <label for="myName">*Name:</label>
+        <input type="text" name="name" id="myName" required>
+        <label for="myPronouns">*Preferred Pronouns:</label>
+        <input type="text" name="pronouns" id="myPronouns" required>
+        <label for="myEmail">*E-mail:</label>
+        <input type="email" name="email" id="myEmail" required>
+        <label for="myEmailList">Subscribe to our newsletter?</label>
+        <select name="subscribe_emails" id="myEmailList">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        <label for="myPhone">Phone:</label>
+        <input type="phone" name="phone" id="myPhone">
+        <label for="myComments">*Comments:</label>
+        <textarea id="myComments" name="Comments" rows="2" cols="20"></textarea>
+        <input type="submit" name="mySubmit" id="mysubmit">
+    </form>
+
+</div>
+
+</body>
+
+<footer>
+    Copyright © 2023 Lil's Books<br>
+    <a href= "mailto:lstidam2@ivytech.edu">lillia@stidam.com</a>
+</footer>
+
+</html>
